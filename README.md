@@ -80,7 +80,7 @@ All tooling is **100% free** (open source, freeware, or free tier with no time l
 
 - **Killercoda Ubuntu Playground** — disposable Ubuntu VM in the browser (every lab) — https://killercoda.com/playgrounds/scenario/ubuntu
 - **CompTIA Server+ Objectives** — official blueprint — https://www.comptia.org/certifications/server
-- **Subnet calculator** — IP planning (Lab 8) — https://www.subnet-calculator.com/
+- **IP Calculator** — subnet / IP planning (Labs 8, 32) — https://alfredang.github.io/ipcalculator/
 - **SSL Labs** — TLS posture check (Lab 18) — https://www.ssllabs.com/ssltest/
 - **CVE / NVD** — vulnerability lookup (Lab 24) — https://nvd.nist.gov/
 

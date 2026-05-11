@@ -82,7 +82,7 @@ All tools below are **100% free** (open source, freeware, or free tier without a
 
 - **Killercoda playground** — https://killercoda.com/playgrounds/scenario/ubuntu
 - **CompTIA Server+ exam objectives** — https://www.comptia.org/certifications/server
-- **Subnet calculator** — https://www.subnet-calculator.com/
+- **IP Calculator** — https://alfredang.github.io/ipcalculator/
 - **SSL Labs server test** — https://www.ssllabs.com/ssltest/
 - **NVD / CVE search** — https://nvd.nist.gov/
 - **NIST 800-88 media sanitization** — https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final

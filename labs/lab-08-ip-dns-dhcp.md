@@ -130,7 +130,7 @@ If a Windows client cannot reach a DHCP server it self-assigns from **169.254.0.
 ---
 
 ## Free online tools
-- **Subnet calculator** — https://www.subnet-calculator.com/
+- **IP Calculator** — https://alfredang.github.io/ipcalculator/
 - **IANA IPv4 special-use registry** — https://www.iana.org/assignments/iana-ipv4-special-registry/
 - **BIND9 ARM** — https://bind9.readthedocs.io/
 

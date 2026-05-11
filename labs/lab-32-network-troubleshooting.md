@@ -165,7 +165,7 @@ Always work **bottom-up** through the OSI stack.
 ---
 
 ## Free online tools
-- **subnet-calculator.com** — https://www.subnet-calculator.com/
+- **IP Calculator** — https://alfredang.github.io/ipcalculator/
 - **iperf3 (bandwidth test)** — https://iperf.fr/
 - **Wireshark (free packet analyser)** — https://www.wireshark.org/
 - **dnsviz.net (DNS chain visualiser)** — https://dnsviz.net/
