@@ -72,6 +72,7 @@ ls -lh seed.iso
 On a real install, attach `seed.iso` as a virtual CD via IP KVM and boot the Ubuntu Server ISO with `autoinstall ds=nocloud-net` on the kernel command line. The install runs end-to-end with **no operator interaction**.
 
 ## Step 4 — Imaging and cloning — capture a golden image
+ Note: This will take more than 10-15 mins based on the size of the image
 
 Take a snapshot of the running root filesystem as a tarball you can deploy elsewhere:
 
