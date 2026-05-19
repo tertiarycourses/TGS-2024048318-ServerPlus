@@ -64,6 +64,7 @@ ufw status verbose
 ## Step 4 — Confirm the policy is effective
 
 ```bash
+apt install nmap
 nmap -p 22,23,25,80,443,3306 127.0.0.1
 ```
 
