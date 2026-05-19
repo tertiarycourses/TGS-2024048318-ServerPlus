@@ -43,7 +43,7 @@ curl -s http://site1.lab.local/ | head
 ```
 
 ## Step 2 — File server (Samba — CIFS/SMB)
-
+apt install smbclient
 ```bash
 groupadd -f fileshare
 useradd -m -G fileshare alice 2>/dev/null
