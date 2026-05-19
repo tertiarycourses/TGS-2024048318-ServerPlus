@@ -109,7 +109,9 @@ echo '*.* @@siem.lab.local:514' > /etc/rsyslog.d/90-forward.conf
 `@@` = TCP (reliable). A single `@` = UDP (lossy, only for very high volume).
 
 ## Step 9 — Thresholds + alerting (using Prometheus node_exporter)
-
+```base
+ apt install -y prometheus-node-exporter
+```
 ```bash
 systemctl enable --now prometheus-node-exporter
 curl -s http://127.0.0.1:9100/metrics | grep -E 'node_cpu_seconds_total|node_memory_MemAvailable|node_filesystem_free' | head
