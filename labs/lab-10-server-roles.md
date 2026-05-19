@@ -43,7 +43,7 @@ curl -s http://site1.lab.local/ | head
 ```
 
 ## Step 2 — File server (Samba — CIFS/SMB)
-#Unstall snba client
+
 apt install smbclient
 ```bash
 groupadd -f fileshare
