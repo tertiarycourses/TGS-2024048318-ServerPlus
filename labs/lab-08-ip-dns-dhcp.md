@@ -26,9 +26,9 @@ Note the **MAC address** on each `link/ether` line and the **default gateway** (
 ## Step 2 — Configure a static IP and default gateway
 
 ```bash
-ip addr add 10.99.99.10/24 dev eth0
-ip route add default via 10.99.99.1 dev eth0 || true
-ip -c addr show eth0
+ip addr add 10.99.99.10/24 dev enp1s0
+ip route add default via 10.99.99.1 dev enp1s0 || true
+ip -c addr show enp1s0
 ```
 
 ## Step 3 — VLAN tagging on a single NIC
