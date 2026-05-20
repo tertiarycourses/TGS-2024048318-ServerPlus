@@ -79,7 +79,9 @@ dpkg-reconfigure -p low unattended-upgrades
 See Lab 5. The hardening tie-in: firmware advisories often fix the same CVE classes (Spectre, BMC auth bypass) — patch the silicon, not just the OS.
 
 ## Step 7 — Application hardening (web role example)
-
+```bash
+apt install nginx
+```
 ```bash
 # nginx hardening lines
 cat > /etc/nginx/conf.d/hardening.conf <<'EOF'
