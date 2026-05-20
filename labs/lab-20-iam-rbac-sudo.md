@@ -98,7 +98,9 @@ chage -l alice
 ```
 
 ## Step 4 — Permissions: file ACLs vs. group bits
-
+```bash
+apt install acl
+```
 ```bash
 mkdir -p /srv/dbdata && chgrp dbops /srv/dbdata && chmod 2770 /srv/dbdata
 setfacl -m g:netops:r-x /srv/dbdata        # netops read-only
