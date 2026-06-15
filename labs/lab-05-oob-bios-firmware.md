@@ -34,7 +34,10 @@ efibootmgr -v 2>/dev/null || echo "UEFI vars not exposed in this VM — on real 
 Practise the workflow: list entries, change order, add a network boot entry, remove a stale one — `efibootmgr -o 0002,0001,0003`, `efibootmgr -B -b 0004`.
 
 ## Step 3 — IPMI / BMC command pattern
-
+```
+sudo apt update
+sudo apt install smbclient
+```
 Real servers expose a BMC on a dedicated NIC. From any admin workstation:
 
 ```bash
