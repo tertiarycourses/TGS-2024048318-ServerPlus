@@ -73,7 +73,9 @@ nmap -p 22,23,25,80,443,3306 127.0.0.1
 ## Step 5 — Same rules in raw `nftables`
 
 UFW is a wrapper; the underlying engine is nftables. Inspect and write a rule directly:
-
+``bash
+nft add rule inet filter input tcp dport 8080 accept
+```
 ```bash
 nft list ruleset | head -40
 nft add rule inet filter input tcp dport 8080 accept
