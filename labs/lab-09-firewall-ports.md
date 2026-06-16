@@ -78,8 +78,9 @@ nft add rule inet filter input tcp dport 8080 accept
 ```
 ```bash
 nft list ruleset | head -40
+nft add table inet filter
+nft add chain inet filter input '{ type filter hook input priority 0; policy accept; }'
 nft add rule inet filter input tcp dport 8080 accept
-nft list chain inet filter input
 ```
 
 ## Step 6 — Source-restricted (RBAC-style) rules
